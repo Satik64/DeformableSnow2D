@@ -11,7 +11,7 @@ The script is simple, written for purpose of snow effects in my levels so there 
 4. Not absolutely pixel perfect, but this can be probably improved by more complex mesh, but it's not purpose of this simple script :)
 
 ## Use of example
-You can use my predefined meshes with ready-to-place prefabs. which should working without problems. I have one smaller snow, one normal and one long which is fitting the most level scenarious. You can adjust the diffuse texture, replace with custom material or use it at it is :)
+You can use my predefined meshes with ready-to-place prefabs. which should working without problems. I have one smaller snow and one long which is fitting the most level scenarious. You can adjust the diffuse texture, replace with custom material or use it at it is :)
 
 ## Creating custom meshes
 You can create custom snow mesh very simply, there are just a few things to have in mind:
