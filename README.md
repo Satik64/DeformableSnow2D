@@ -18,7 +18,7 @@ You can use my predefined meshes with ready-to-place GameObjects in example scen
 ## Creating custom meshes
 You can create custom snow mesh very simply, there are just a few things to have in mind:
 1. Create your mesh in your 3D editor
-2. For the biggest variability, the lowest vertices (which should not be deformed by script) can be placed anywhere not just at zero position, but it's important to set them vertex color smaller (Red channel) then 1, so script will find them and deformation will be ignored
+2. For the biggest variability, the lowest vertices (which should not be deformed by script) can be placed anywhere not just at zero position, but it's important to set them vertex color smaller (Red channel - 0.99 works fine :)) then 1, so script will find them and deformation will be ignored
 3. IMPORTANT - after importing to Unity, you must allow Read/Write in mesh settings
 
 ## Assigning script
