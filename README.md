@@ -1,5 +1,6 @@
 # DeformableSnow2D
 Simple effect for 2D camera games. Meshes can be placed anywhere on the ground in the scene and the model will accurately deform when in contact with BoxCollider2D, CircleCollider2D or PolygonCollider2D. You can create your own more complex meshes. It's not exactly pixel perfect and smooth, but it was made for an additional effect in my game, but you might find it useful for your game too :) Also the snow can be regenerated or melted by time.
+
 ![Preview](preview.gif)
 
 ## Limitations
@@ -8,7 +9,8 @@ The script is simple, written for purpose of snow effects in my levels so there 
 1. <b>Box Colliders</b> - due to optimization, the box colliders haven't any calculations except the size, so the it's <b>not working with rotation</b> - however for "pixel perfect" collision you can still use polygon collider
 2. <b>Polygon colliders</b> are probably quite expensive due to many calculations, so I recommend use them in small amount :)
 3. Directions - there is no support for another gravity, however I made experiments with more complex terrains and more waving meshes and it seems to be working very well :)
-4. Not absolutely pixel perfect, but this can be probably improved by more complex mesh, but it's not purpose of this simple script :)
+4. Only one path polygon colliders are supported
+5. Not absolutely pixel perfect, but this can be probably improved by more complex mesh, but it's not purpose of this simple script :)
 
 ## Use of example
 You can use my predefined meshes with ready-to-place prefabs. which should working without problems. I have one smaller snow and one long which is fitting the most level scenarious. You can adjust the diffuse texture, replace with custom material or use it at it is :)
