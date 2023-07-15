@@ -29,6 +29,6 @@ You can create custom snow mesh very simply, there are just a few things to have
 5. Enjoy the snow :) (optionaly you can add destroying effect which will be created at vertices positions when lowering)
 
 ## License & support
-You are totally free to use this scripts and all assets in your project, and if you will like it, you can send me example your use :) Because it's just a simple script for my game, I can't provide much support, I know it's not a perfect, but it help someone with improving the game :) You can contact me at satik64@gmail.com.
+You are totally free to use this scripts and all assets in your project, and if you will like it, you can send me example your use :) Because it's just a simple script from my game, I can't provide much support, I know it's not a perfect, but it can help someone with improving the game :) You can contact me at satik64@gmail.com.
 
 You can assign any material you like, the example is using standard renderer, but you can easily assign your URP materials if you need. Tested on Unity 2021.3.11f1, probably will be OK with another versions.
