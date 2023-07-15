@@ -1,5 +1,5 @@
 # DeformableSnow2D
-Simple effect for 2D camera games. Meshes can be placed anywhere on the ground in the scene and the model will accurately deform when in contact with BoxCollider2D, CircleCollider2D or PolygonCollider2D. You can create your own more complex meshes. It's not exactly pixel perfect and smooth, but it was made for an additional effect in my game, but you might find it useful for your game too :) Also the snow can be regenerated or melted by time.
+Simple effect for 2D side-cam games (Unity). Meshes can be placed anywhere on the ground in the scene and the model will accurately deform when in contact with BoxCollider2D, CircleCollider2D or PolygonCollider2D. You can create your own more complex meshes. It's not exactly pixel perfect and smooth, but it was made for an additional effect in my game, but you might find it useful for your game too :) Also the snow can be regenerated or melted by time.
 
 ![Preview](preview.gif)
 
