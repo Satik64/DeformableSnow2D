@@ -24,7 +24,7 @@ You can create custom snow mesh very simply, there are just a few things to have
 ## Assigning script
 1. Place mesh into the scene
 2. Assign DeformableSnow2D script to your GameObject
-3. Now you must choose every collider to the currentCollidersWithSnow List (supported colliders are BoxCollider2D, CircleCollider2D and PolygonCollider2D). It's possible to let the script find all colliders in the scene, but I don't recommend this due to great performance expensivity, but for small levels it can work.
+3. Now you must choose every collider to the currentCollidersWithSnow List (supported colliders are BoxCollider2D, CircleCollider2D and PolygonCollider2D). It's possible to let the script find all colliders in the scene, but I don't recommend this due to great performance expensiveness, but for small levels it can work.
 4. You can also set regenerating (>0) or melting (<0) by regenerationSpeed
 5. Enjoy the snow :) (optionaly you can add destroying effect which will be created at vertices positions when lowering)
 
